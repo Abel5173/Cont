@@ -1,0 +1,5 @@
+c, d = input().split()
+a=int(c)
+b=int(d)
+result=((2*a*b)/(a+b))
+print("{:.5f}".format(result))
